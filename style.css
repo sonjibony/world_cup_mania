@@ -59,4 +59,111 @@ margin-top: 32px;
 margin-right: 55px;
 
 }
+.buttons{
+    background-color:black;
+    height: 312px;
+width: 312px;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 20px;
 
+}
+.button-style{
+    height: 64px;
+width: 252px;
+border-radius: 10px;
+color: black;
+background-color: #fff;
+
+}
+.blog-button .button-style{
+    background-color: #dd0000;
+    color: #fff;
+}
+/*------------
+     BLOGS
+ ------------*/ 
+ #blog-section{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 100px;
+ }  
+ .blogs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 25px;
+    
+ }
+ .blog{
+    height: 362px;
+width: 312px;
+margin-top: 20px;
+border: 1px solid #e8e8e8;
+border-radius:10px ;
+
+ } 
+ .transfer-button{
+    height: 32px;
+width: 100px;
+border-radius: 5px;
+border: 1px solid black;
+background-color: white;
+color: black;
+display: flex;
+align-items: center;
+margin-left: 15px;
+
+ }
+ .blog-details{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+ }
+ .blog-info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-left: 15px;
+ }
+ /*-------------
+      footer
+---------------*/
+footer{
+
+background-color: black;
+text-align: center;
+padding-top :100px;
+padding-bottom: 150px;
+margin-top: 130px;
+color: white;
+
+}
+hr{
+    background-color: white;
+    height: 1px;
+    border: none;
+    margin-top: 25px;
+}
+#extra-details{
+    display: flex;
+    justify-content: center;
+    gap:25px ;
+    margin-top: 40px;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.media{
+   font-size: 20px; 
+   margin-top: 40px;
+   
+}
+.social-site{
+    color:white ;
+}
