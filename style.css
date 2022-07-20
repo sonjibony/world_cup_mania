@@ -7,45 +7,52 @@
    font-family: 'Poppins', sans-serif;
 
 }
+
+   
+
 #header-section{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: 30px auto;
     background-color:black;
-    height: 646px;
-width: 1321px;
+    height: 90vh;
+width: 95vw;
 border-radius: 30px;
 
 
 }
 .game-info{
-    margin-left:106px ;
+    margin-left:80px ;
     margin-top: 111px;
     margin-bottom: 111px;
-    height: 424px;
-width: 531px;
+    height: 50%;
+width: 50vw;
 border-radius: 5px;
 
+
 }
+
+
 .game-title{
-font-size: 70px;
-line-height: 80px;
+font-size: 4vw;
 text-align: left;
 color:white ;
 
 }
 .game-des{
-font-size: 16px;
-line-height: 26px;
+font-size: 1rem;
 color: white;
 margin-top: 20px;
+width: 80%;
+text-align: left;
 
 }
 button{
 background-color: #dd0000;
 border: none;
 border-radius: 5px;
-padding: 16px 25px;
+height: 2.5rem;
+padding: 0px 10px;
 margin-top: 30px;
 color: white;
 }
@@ -53,10 +60,9 @@ color: white;
     margin-left: 7px;
 }
 .header-banner img{
-    height: 613px;
-width: 581px;
+    height: 95%;
+width: 50vw;
 margin-top: 32px;
-margin-right: 55px;
 
 }
 .buttons{
@@ -183,4 +189,182 @@ justify-content: center;
 align-items: center;
 
 }
+@media screen and (max-width: 768px){
+    #header-section img{
+        width: 270px;
+    
+    
+    }
+    #header-section{
+        display: flex;
+    background-color:black;
+    height: 90vh;
+width: 95vw;
+border-radius: 30px;
+margin: 20 auto;
 
+    }
+    .game-info{
+        margin-left:30px ;
+        margin-top: 120px;
+        margin-bottom: 20px;
+    
+
+    
+    
+    
+    }
+
+    #blog-section{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: auto;
+        margin-top: 50px;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        justify-content: center;
+        margin: 0 auto;
+    height: 0;
+        margin-bottom: 40px;
+
+    }
+    .button-style{
+        height: 64px;
+width: 150px;
+border-radius: 10px;
+padding: 0.35em 1.2em;
+border: 1px solid grey;
+
+
+    }
+
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 70px;
+        
+    }
+    .blog-container{
+        margin:0 auto ;
+    }
+    .blog{
+        height: 350px;
+        width: 200px;
+
+ 
+ 
+
+    }
+    .blog .thumbnail img{
+     height: 100%;
+     width: 100%
+    }
+    footer{
+
+        padding-top :60px;
+        padding-bottom: 70px;
+        margin-top: 40px;
+        
+    }
+    
+    }
+    #extra-details{
+        flex-wrap: wrap;
+
+    }
+    
+      @media screen and (max-width:550px)  {
+        
+         #header-section{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+width: 90vw;
+border-radius: 10px;
+
+
+         }  
+         .game-info{
+            height: 50vh;
+width: 90vw;
+
+
+
+
+            margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        
+        } 
+        .header-banner img{
+            height: 90%;
+        width: 100%;
+        
+        
+        
+        }
+        .game-title{
+            margin-top: 20px;
+            font-size: 4.5vh;
+            text-align: center;
+            color:white ;
+            width: 70%;
+            
+            }
+            .game-des{
+            font-size: 1rem;
+            color: white;
+            margin-top: 20px;
+            width: 80%;
+            text-align:center
+            
+            }
+            .buttons{
+                display: flex;
+                flex-direction: column;
+                
+            margin-top: 0px;
+        
+                height: 200px;
+                width: 90vw;
+                background-color: white;
+                
+        
+    
+        
+            }
+            .button-style{
+                height: 64px;
+        width: 250px;
+        font-size: 1em;
+        border-radius: 10px;
+        padding: 0.35em 1.2em;
+        border: 1px solid grey;
+        
+        
+            }
+            .blogs{
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                row-gap: 20px;
+                
+                
+             }
+             .blog{
+                height: 100%;
+            width: 80%;
+            margin: 0 auto;
+            
+            
+             } 
+        }
