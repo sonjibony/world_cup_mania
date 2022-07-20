@@ -124,7 +124,6 @@ margin-left: 15px;
  }
  .blog-info{
     display: flex;
-    justify-content: flex-start;
     align-items: center;
     gap: 10px;
     margin-left: 15px;
@@ -167,3 +166,21 @@ hr{
 .social-site{
     color:white ;
 }
+.flags{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.matches{
+    height: 242px;
+width: 312px;
+margin-top: 20px;
+border: 1px solid #e8e8e8;
+border-radius:10px ;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
